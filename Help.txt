@@ -1,0 +1,280 @@
+Last login: Thu Jun  7 22:25:06 on ttys000
+MacBook-Pro:~ mehulnagpurkar$ sudo xcode-select --install
+Password:
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+MacBook-Pro:~ mehulnagpurkar$ brew install opencv
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+angular-cli         fribidi             mint                streamlink
+arangodb            gist                nginx               vault
+certbot             gopass              node                vert.x
+conan               goreleaser          node-build          xonsh
+dnscrypt-proxy      inspectrum          numpy               xtensor
+draco               kubernetes-cli      odpi
+etcd                llnode              pgroonga
+flow                mercurial           php-code-sniffer
+
+==> Installing dependencies for opencv: eigen, lame, x264, xvid, ffmpeg, jpeg, libpng, libtiff, ilmbase, openexr, gdbm, readline, sqlite, xz, python, python@2, numpy, tbb
+==> Installing opencv dependency: eigen
+==> Downloading https://homebrew.bintray.com/bottles/eigen-3.3.4.high_sierra.bot
+######################################################################## 100.0%
+==> Pouring eigen-3.3.4.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/eigen/3.3.4: 486 files, 6.5MB
+==> Installing opencv dependency: lame
+==> Downloading https://homebrew.bintray.com/bottles/lame-3.100.high_sierra.bott
+######################################################################## 100.0%
+==> Pouring lame-3.100.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/lame/3.100: 27 files, 2.1MB
+==> Installing opencv dependency: x264
+==> Downloading https://homebrew.bintray.com/bottles/x264-r2854.high_sierra.bott
+######################################################################## 100.0%
+==> Pouring x264-r2854.high_sierra.bottle.1.tar.gz
+🍺  /usr/local/Cellar/x264/r2854: 11 files, 3.4MB
+==> Installing opencv dependency: xvid
+==> Downloading https://homebrew.bintray.com/bottles/xvid-1.3.5.high_sierra.bott
+######################################################################## 100.0%
+==> Pouring xvid-1.3.5.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/xvid/1.3.5: 10 files, 1.2MB
+==> Installing opencv dependency: ffmpeg
+==> Downloading https://homebrew.bintray.com/bottles/ffmpeg-4.0.high_sierra.bott
+######################################################################## 100.0%
+==> Pouring ffmpeg-4.0.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/ffmpeg/4.0: 246 files, 49.6MB
+==> Installing opencv dependency: jpeg
+==> Downloading https://homebrew.bintray.com/bottles/jpeg-9c.high_sierra.bottle.
+######################################################################## 100.0%
+==> Pouring jpeg-9c.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg/9c: 21 files, 724.5KB
+==> Installing opencv dependency: libpng
+==> Downloading https://homebrew.bintray.com/bottles/libpng-1.6.34.high_sierra.b
+######################################################################## 100.0%
+==> Pouring libpng-1.6.34.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.34: 26 files, 1.2MB
+==> Installing opencv dependency: libtiff
+==> Downloading https://homebrew.bintray.com/bottles/libtiff-4.0.9_3.high_sierra
+######################################################################## 100.0%
+==> Pouring libtiff-4.0.9_3.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/libtiff/4.0.9_3: 246 files, 3.5MB
+==> Installing opencv dependency: ilmbase
+==> Downloading https://homebrew.bintray.com/bottles/ilmbase-2.2.1.high_sierra.b
+######################################################################## 100.0%
+==> Pouring ilmbase-2.2.1.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/ilmbase/2.2.1: 353 files, 5.6MB
+==> Installing opencv dependency: openexr
+==> Downloading https://homebrew.bintray.com/bottles/openexr-2.2.0_1.high_sierra
+######################################################################## 100.0%
+==> Pouring openexr-2.2.0_1.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/openexr/2.2.0_1: 132 files, 11MB
+==> Installing opencv dependency: gdbm
+==> Downloading https://homebrew.bintray.com/bottles/gdbm-1.14.1_1.high_sierra.b
+######################################################################## 100.0%
+==> Pouring gdbm-1.14.1_1.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.14.1_1: 20 files, 555.7KB
+==> Installing opencv dependency: readline
+==> Downloading https://homebrew.bintray.com/bottles/readline-7.0.3_1.high_sierr
+######################################################################## 100.0%
+==> Pouring readline-7.0.3_1.high_sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/readline/lib
+    CPPFLAGS: -I/usr/local/opt/readline/include
+
+==> Summary
+🍺  /usr/local/Cellar/readline/7.0.3_1: 46 files, 1.5MB
+==> Installing opencv dependency: sqlite
+==> Downloading https://homebrew.bintray.com/bottles/sqlite-3.24.0.high_sierra.b
+######################################################################## 100.0%
+==> Pouring sqlite-3.24.0.high_sierra.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides an older sqlite3.
+
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find this software you may need to set:
+    LDFLAGS:  -L/usr/local/opt/sqlite/lib
+    CPPFLAGS: -I/usr/local/opt/sqlite/include
+
+==> Summary
+🍺  /usr/local/Cellar/sqlite/3.24.0: 11 files, 3.5MB
+==> Installing opencv dependency: xz
+==> Downloading https://homebrew.bintray.com/bottles/xz-5.2.4.high_sierra.bottle
+######################################################################## 100.0%
+==> Pouring xz-5.2.4.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.2.4: 92 files, 1MB
+==> Installing opencv dependency: python
+==> Downloading https://homebrew.bintray.com/bottles/python-3.6.5.high_sierra.bo
+######################################################################## 100.0%
+==> Pouring python-3.6.5.high_sierra.bottle.1.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/2to3
+Target /usr/local/bin/2to3
+already exists. You may want to remove it:
+  rm '/usr/local/bin/2to3'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite python
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run python
+
+Possible conflicting files are:
+/usr/local/bin/2to3 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/2to3
+/usr/local/bin/2to3-3.6 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/2to3-3.6
+/usr/local/bin/idle3 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/idle3
+/usr/local/bin/idle3.6 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/idle3.6
+/usr/local/bin/pydoc3 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/pydoc3
+/usr/local/bin/pydoc3.6 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/pydoc3.6
+/usr/local/bin/python3 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/python3
+/usr/local/bin/python3-config -> /Library/Frameworks/Python.framework/Versions/3.6/bin/python3-config
+/usr/local/bin/python3.6 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6
+/usr/local/bin/python3.6-config -> /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6-config
+/usr/local/bin/python3.6m -> /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6m
+/usr/local/bin/python3.6m-config -> /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6m-config
+/usr/local/bin/pyvenv -> /Library/Frameworks/Python.framework/Versions/3.6/bin/pyvenv
+/usr/local/bin/pyvenv-3.6 -> /Library/Frameworks/Python.framework/Versions/3.6/bin/pyvenv-3.6
+==> /usr/local/Cellar/python/3.6.5/bin/python3 -s setup.py --no-user-cfg install
+==> /usr/local/Cellar/python/3.6.5/bin/python3 -s setup.py --no-user-cfg install
+==> /usr/local/Cellar/python/3.6.5/bin/python3 -s setup.py --no-user-cfg install
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python/libexec/bin
+
+If you need Homebrew's Python 2.7 run
+  brew install python@2
+
+Pip, setuptools, and wheel have been installed. To update them run
+  pip3 install --upgrade pip setuptools wheel
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.6/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python/3.6.5: 4,736 files, 99.2MB
+==> Installing opencv dependency: python@2
+==> Downloading https://homebrew.bintray.com/bottles/python@2-2.7.15.high_sierra
+######################################################################## 100.0%
+==> Pouring python@2-2.7.15.high_sierra.bottle.tar.gz
+==> /usr/local/Cellar/python@2/2.7.15/bin/python -s setup.py --no-user-cfg insta
+==> /usr/local/Cellar/python@2/2.7.15/bin/python -s setup.py --no-user-cfg insta
+==> /usr/local/Cellar/python@2/2.7.15/bin/python -s setup.py --no-user-cfg insta
+==> Caveats
+Pip and setuptools have been installed. To update them
+  pip install --upgrade pip setuptools
+
+You can install Python packages with
+  pip install <package>
+
+They will install into the site-package directory
+  /usr/local/lib/python2.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@2/2.7.15: 4,669 files, 82.7MB
+==> Installing opencv dependency: numpy
+==> Downloading https://homebrew.bintray.com/bottles/numpy-1.14.4.high_sierra.bo
+######################################################################## 100.0%
+==> Pouring numpy-1.14.4.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/numpy/1.14.4: 939 files, 24.9MB
+==> Installing opencv dependency: tbb
+==> Downloading https://homebrew.bintray.com/bottles/tbb-2018_U4.high_sierra.bot
+######################################################################## 100.0%
+==> Pouring tbb-2018_U4.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/tbb/2018_U4: 133 files, 2.7MB
+==> Installing opencv
+==> Downloading https://homebrew.bintray.com/bottles/opencv-3.4.1_5.high_sierra.
+######################################################################## 100.0%
+==> Pouring opencv-3.4.1_5.high_sierra.bottle.2.tar.gz
+🍺  /usr/local/Cellar/opencv/3.4.1_5: 600 files, 214.8MB
+MacBook-Pro:~ mehulnagpurkar$ defaults write com.apple.finder AppleShowAllFiles YES
+MacBook-Pro:~ mehulnagpurkar$ defaults write com.apple.finder AppleShowAllFiles NO
+MacBook-Pro:~ mehulnagpurkar$ echo /usr/local/opt/opencv/lib/python3.6/site-packages >> /usr/local/lib/python3.6/site-packages/opencv3.pth
+MacBook-Pro:~ mehulnagpurkar$ mkvirtualenv cv-py3 -p python3
+-bash: mkvirtualenv: command not found
+MacBook-Pro:~ mehulnagpurkar$ pip install numpy scipy scikit-image matplotlib scikit-learn
+Requirement already satisfied: numpy in ./anaconda3/lib/python3.6/site-packages (1.14.3)
+Requirement already satisfied: scipy in ./anaconda3/lib/python3.6/site-packages (1.1.0)
+Requirement already satisfied: scikit-image in ./anaconda3/lib/python3.6/site-packages (0.13.1)
+Requirement already satisfied: matplotlib in ./anaconda3/lib/python3.6/site-packages (2.2.2)
+Requirement already satisfied: scikit-learn in ./anaconda3/lib/python3.6/site-packages (0.19.1)
+Requirement already satisfied: six>=1.7.3 in ./anaconda3/lib/python3.6/site-packages (from scikit-image) (1.11.0)
+Requirement already satisfied: networkx>=1.8 in ./anaconda3/lib/python3.6/site-packages (from scikit-image) (2.1)
+Requirement already satisfied: pillow>=2.1.0 in ./anaconda3/lib/python3.6/site-packages (from scikit-image) (5.1.0)
+Requirement already satisfied: PyWavelets>=0.4.0 in ./anaconda3/lib/python3.6/site-packages (from scikit-image) (0.5.2)
+Requirement already satisfied: cycler>=0.10 in ./anaconda3/lib/python3.6/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in ./anaconda3/lib/python3.6/site-packages (from matplotlib) (2.2.0)
+Requirement already satisfied: python-dateutil>=2.1 in ./anaconda3/lib/python3.6/site-packages (from matplotlib) (2.7.3)
+Requirement already satisfied: pytz in ./anaconda3/lib/python3.6/site-packages (from matplotlib) (2018.4)
+Requirement already satisfied: kiwisolver>=1.0.1 in ./anaconda3/lib/python3.6/site-packages (from matplotlib) (1.0.1)
+Requirement already satisfied: decorator>=4.1.0 in ./anaconda3/lib/python3.6/site-packages (from networkx>=1.8->scikit-image) (4.3.0)
+Requirement already satisfied: setuptools in ./anaconda3/lib/python3.6/site-packages (from kiwisolver>=1.0.1->matplotlib) (39.1.0)
+distributed 1.21.8 requires msgpack, which is not installed.
+MacBook-Pro:~ mehulnagpurkar$ ls
+Adlm		Downloads	Music		PycharmProjects
+Applications	JupyterNotebook	Pictures	anaconda3
+Desktop		Library		Prezi		dejagnu
+Documents	Movies		Public		libtool
+MacBook-Pro:~ mehulnagpurkar$ cd JupyterNotebook/
+
+
+
+Last login: Thu Jun  7 23:03:35 on ttys000
+MacBook-Pro:JupyterNotebook mehulnagpurkar$ cd /Users/mehulnagpurkar/anaconda3/bin 
+MacBook-Pro:bin mehulnagpurkar$ source activate 
+(base) MacBook-Pro:bin mehulnagpurkar$ pip install opencv-python
+Collecting opencv-python
+  Downloading https://files.pythonhosted.org/packages/e1/4a/7b9821af03b70b45946cf597cfcfc30e3025257fb0c4c350b2e9d693ef7d/opencv_python-3.4.1.15-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (41.9MB)
+    100% |████████████████████████████████| 41.9MB 493kB/s 
+Requirement already satisfied: numpy>=1.11.3 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from opencv-python) (1.14.3)
+distributed 1.21.8 requires msgpack, which is not installed.
+Installing collected packages: opencv-python
+Successfully installed opencv-python-3.4.1.15
+(base) MacBook-Pro:bin mehulnagpurkar$ deactivate
+-bash: /Users/mehulnagpurkar/anaconda3/bin/deactivate: Permission denied
+(base) MacBook-Pro:bin mehulnagpurkar$ deactivate
+-bash: /Users/mehulnagpurkar/anaconda3/bin/deactivate: Permission denied
+(base) MacBook-Pro:bin mehulnagpurkar$ source bin de
+deactivate  derb        
+(base) MacBook-Pro:bin mehulnagpurkar$ source bin de
+deactivate  derb        
+(base) MacBook-Pro:bin mehulnagpurkar$ source bin deactivate 
+-bash: bin: No such file or directory
+(base) MacBook-Pro:bin mehulnagpurkar$ source de
+deactivate  derb        
+(base) MacBook-Pro:bin mehulnagpurkar$ source deactivate 
+MacBook-Pro:bin mehulnagpurkar$ pip install opencv-python
+Requirement already satisfied: opencv-python in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (3.4.1.15)
+Requirement already satisfied: numpy>=1.11.3 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from opencv-python) (1.14.3)
+distributed 1.21.8 requires msgpack, which is not installed.
+MacBook-Pro:bin mehulnagpurkar$ pip install msgpack
+Requirement already satisfied: msgpack in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (0.5.6)
+MacBook-Pro:bin mehulnagpurkar$ pip install flask
+Requirement already satisfied: flask in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (1.0.2)
+Requirement already satisfied: Jinja2>=2.10 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from flask) (2.10)
+Requirement already satisfied: click>=5.1 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from flask) (6.7)
+Requirement already satisfied: itsdangerous>=0.24 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from flask) (0.24)
+Requirement already satisfied: Werkzeug>=0.14 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from flask) (0.14.1)
+Requirement already satisfied: MarkupSafe>=0.23 in /Users/mehulnagpurkar/anaconda3/lib/python3.6/site-packages (from Jinja2>=2.10->flask) (1.0)
+MacBook-Pro:bin mehulnagpurkar$ 
+  [Restored 29 Jul 2018 at 3:48:43 pm]
+Last login: Sun Jul 29 15:48:43 on ttys000
+Restored session: Sun 29 Jul 2018 15:47:34 AEST
+MacBook-Pro:bin mehulnagpurkar$ 
+
+
