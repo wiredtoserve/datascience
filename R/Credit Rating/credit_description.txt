@@ -1,0 +1,15 @@
+"Credit.csv" data description
+
+Column	Variable name	Description
+A	"  "		Identifier
+B	Income		Income in $000
+C	Limit		Credit limit in $
+D	Rating		Credit rating score given at the issue of the most recent credit card
+E	Cards		Number of credit cards held
+F	Age		Age of the individual in years
+G	Education	Years of education
+H	Gender		Gender - recorded as Male or Female
+I	Student		Yes = student; No = non-student
+J	Married		Yes = married; No = not married
+K	Ethnicity	Recorded as Caucasian, Asian or African American
+L	Balance		Balance of credit account in $
