@@ -1,6 +1,4 @@
-# Project Title
-
-Inventory Management using Python
+# Inventory Management using Python
 
 ## Getting Started
 
