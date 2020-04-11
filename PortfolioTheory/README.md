@@ -1,6 +1,4 @@
-# Project Title
-
-Portfolio Analysis using Python
+# Portfolio Analysis using Python
 
 ## Getting Started
 
