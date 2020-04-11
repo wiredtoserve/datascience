@@ -1,4 +1,4 @@
-# Project Title
+# Presonality Detection: NLP
 
 Personality trait estimation using the Myers-Briggs personality type indicator
 
