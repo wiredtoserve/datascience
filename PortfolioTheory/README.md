@@ -9,3 +9,4 @@
 ## Data Files
 
 1. stocks_analysis.csv is a file that calculated the metrics mentioned in the medium article
+2. stocks_analysis.xlsx is a formatted version of the csv with the ticker symbols mapped to the company names
