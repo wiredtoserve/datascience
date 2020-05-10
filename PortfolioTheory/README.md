@@ -1,4 +1,4 @@
-# Portfolio Analysis using Python
+# Stock Analysis using Python
 
 ## Getting Started
 

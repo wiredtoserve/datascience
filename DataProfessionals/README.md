@@ -1,9 +1,9 @@
 # Data Professional Analysis using Python
 
-DESCRIPTION
+## DESCRIPTION
 2019, 2018, & 2017 Data Professional Salary Survey Results
 
-SUMMARY
+## SUMMARY
 
 How much do database administrators, analysts, architects, developers, and data scientists make? We asked, and 882 of you from 46 countries answered this year.
 
